@@ -16,9 +16,14 @@ a{
     text-decoration: none;
 }
 
-.flex{
+.flex-just-center{
     display: flex;
     justify-content: center;
+}
+
+.flex-alignitems-center{
+    display: flex;
+    align-items: center;
 }
 
 .position-fixed{
@@ -87,9 +92,7 @@ nav{
     height: 70px;
     width: 100%;
     background-color: rgb(34, 34, 34);
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .nav-button{
@@ -99,8 +102,6 @@ nav{
 }
 
 .nav-item{
-    display: flex;
-    align-items: center;
     height: 100%;
 
 }
