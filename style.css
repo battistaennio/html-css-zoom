@@ -61,17 +61,23 @@ main{
 }
 
 .main-container{
-    width: 80%;
-    height: 100%;
+    width: 90%;
     margin-top: 50px;
     flex-wrap: wrap;
-    gap: 3px;
+    gap: 4px;
 }
 
 .guest{
     position: relative;
-    margin: 2px 0;
-    height: 130px;
+    margin: 4px 0;
+    width: 14%;
+    height: 17%;
+}
+
+.guest img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .guest-name{
