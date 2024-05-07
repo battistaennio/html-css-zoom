@@ -23,15 +23,17 @@ a{
     align-items: center;
 }
 
-.nav-item{
-    /* debug */
-    min-width: 100px;
-}
-
 .nav-button{
     display: inline-block;
     text-align: center;
-    margin: 0 5px;
+    margin: 0 8px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
 }
 
 .nav-button i{
@@ -40,4 +42,14 @@ a{
 
 .nav-button span{
     font-size: 13px;
+}
+
+.more-options i{
+    font-size: 10px;
+}
+
+#end-call{
+    color: rgb(199, 32, 43);
+    background-color: rgb(74, 74, 74);
+    text-align: right;
 }
