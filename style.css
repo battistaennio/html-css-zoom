@@ -7,3 +7,37 @@
 body{
     font-family: "Lato", sans-serif;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* regole nav */
+.nav-container{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    /* debug */
+    min-width: 100px;
+}
+
+.nav-button{
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.nav-button i{
+    font-size: 25px;
+}
+
+.nav-button span{
+    font-size: 13px;
+}
