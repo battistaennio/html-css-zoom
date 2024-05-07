@@ -6,6 +6,9 @@
 
 body{
     font-family: "Lato", sans-serif;
+    background-color: black;
+    height: 100vh;
+
 }
 
 a{
@@ -13,7 +16,42 @@ a{
     text-decoration: none;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
 /* regole main */
+main{
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main-container{
+    width: 80%;
+    height: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.guest{
+    position: relative;
+    /* debug */
+    height: 130px;
+    width: 200px;
+}
+
+.guest-name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.349);
+    padding: 2px;
+    font-size: 12px;
+}
 
 /* regole nav */
 nav{
