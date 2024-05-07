@@ -13,7 +13,17 @@ a{
     text-decoration: none;
 }
 
+/* regole main */
+
 /* regole nav */
+nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
+}
+
 .nav-container{
     height: 70px;
     width: 100%;
