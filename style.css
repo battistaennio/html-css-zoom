@@ -21,6 +21,13 @@ a{
     justify-content: center;
 }
 
+.position-fixed{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 900;
+}
+
 /* regole main */
 main{
     height: 100vh;
@@ -32,12 +39,7 @@ main{
     color: white;
     background-color: black;
     text-align: right;
-    width: 100%;
-    position: fixed;
     top: 0;
-    left: 0;
-    z-index: 900;
-
 }
 
 .view-button{
@@ -78,11 +80,7 @@ main{
 
 /* regole nav */
 nav{
-    width: 100%;
-    position: fixed;
     bottom: 0;
-    left: 0;
-    z-index: 900;
 }
 
 .nav-container{
@@ -120,7 +118,10 @@ nav{
 }
 
 #end-call{
-    color: rgb(199, 32, 43);
     background-color: rgb(74, 74, 74);
     text-align: right;
+}
+
+#end-call a {
+    color: rgb(199, 32, 43);
 }
