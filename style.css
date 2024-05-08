@@ -7,13 +7,12 @@
 body{
     font-family: "Lato", sans-serif;
     background-color: black;
-    height: 100vh;
-
+    color: white;
 }
 
 a{
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 .flex-just-center{
@@ -26,28 +25,15 @@ a{
     align-items: center;
 }
 
-.position-fixed{
-    width: 100%;
-    position: fixed;
-    left: 0;
-    z-index: 900;
-}
-
 .background-gray{
     background-color: rgba(128, 128, 128, 0.349);
     padding: 4px;
     font-size: 13px;
 }
 
-/* regole main */
-main{
-    height: 100vh;
-    overflow-y: auto;
-}
-
+/* regole speaker view */
 .view{
     height: 40px;
-    color: white;
     background-color: black;
     text-align: right;
     top: 0;
@@ -60,18 +46,19 @@ main{
     border-radius: 5px;
 }
 
+/* regole main */
 .main-container{
     width: 90%;
-    margin-top: 50px;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 5px;
+    overflow-y: auto;
+    height: calc(100vh - 110px);
 }
 
 .guest{
     position: relative;
     margin: 4px 0;
-    width: 14%;
-    height: 17%;
+    min-width: 16%;
 }
 
 .guest img{
@@ -84,7 +71,6 @@ main{
     position: absolute;
     left: 0;
     bottom: 0;
-    color: white;
 }
 
 /* regole nav */
